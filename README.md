@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# Sobee
+리액트로 만든 깔끔한 소비 기록 앱
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 엡 구성
+1. 총 소비 금액
+- 설정되어 있는 기간의 총 소비 금액을 표시한다.
+- 소비 기간을 날짜 형식으로 표시한다.
 
-## Available Scripts
+2. 소비 목록
+- 월별로 조회할 수 있다. 
+- 최신순, 오래된 순으로 정렬할 수 있다.
+- 카테고리 별로 정렬할 수 있다. (중복 선택 가능)
 
-In the project directory, you can run:
+3. 소비 목록 편집하기
+- 소비 목록을 클릭하면 상세 내용을 표시하고 편집, 삭제할 수 있다.
 
-### `npm start`
+4. 삭제 모드
+- 삭제 모드에서 소비 목록을 선택하여 기록을 삭제할 수 있다.
+- 취소 버튼을 제공하고 삭제 버튼 클릭 시 확인 알림을 제공한다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+5. 소비 추가하기
+- 날짜, 금액, 카테고리, 제목, 상세내용을 입력하여 소비 기록을 추가할 수 있다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+6. 카테고리 관리하기
+- 소비 카테고리를 사용자가 추가, 수정, 삭제할 수 있다.
