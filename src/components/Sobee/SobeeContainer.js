@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
+import SobeeTotal from './SobeeTotal';
 import './SobeeContainer.css';
+import { useCallback } from 'react';
 
 export const FilterContext = React.createContext();
 
@@ -40,7 +42,6 @@ const SobeeContainer = (props) => {
         <div className='sobee__container'>
             <FilterContext.Provider value={memoizedFilter}>
                 <SobeeTotal />
-                <SobeeList />
             </FilterContext.Provider>
         </div>
     );
