@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useMemo } from 'react';
-import SobeeContainer from './components/Sobee/SobeeContainer';
+import SobeeContainer from './components/Sobee/SobeeContainer.js';
+import NewItemContainer from './components/NewItem/NewItemContainer.js';
 import './styles/reset.css';
 import './styles/common.css';
 import './styles/button.css';
@@ -17,6 +18,7 @@ const App = () => {
         <>
             <ItemDispatchContext.Provider>
                 <SobeeContainer items={items} isAddItem={isAddItem} />
+                <NewItemContainer />
             </ItemDispatchContext.Provider>
         </>
     );
